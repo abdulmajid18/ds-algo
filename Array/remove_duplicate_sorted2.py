@@ -43,7 +43,7 @@ def removeDuplicateC(nums):
             i += 1
             nums[i] = nums[j]
             j += 1
-        print(f"New array: {nums}")
+    print(f"New array: {nums}")
 
 removeDuplicateC(A)
         
